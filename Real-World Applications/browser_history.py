@@ -1,3 +1,11 @@
+"""
+Real-world use:
+Doubly Linked List → Browser history.
+
+Each page keeps a link to the previous and next page,
+which makes Back and Forward navigation easy.
+"""
+
 class HistoryNode:
     def __init__(self, url):
         self.url = url
